@@ -10,7 +10,7 @@ const About = () => {
                 <Row style={{
                     margin: '20px 0'
                 }}>
-                    <Col xs={6} style={{
+                    <Col md={6} style={{
                         display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
@@ -21,7 +21,7 @@ const About = () => {
                             Management studies department is one of the leading departments of University of Barishal. Management Studies Department started its journey from 2011 as one of the very first departments of the university. It was established in 24th January 2011.
                         </p>
                     </Col>
-                    <Col xs={6}>
+                    <Col md={6}>
                         <img src={about} className="img-fluid" alt="" />
                     </Col>
                 </Row>

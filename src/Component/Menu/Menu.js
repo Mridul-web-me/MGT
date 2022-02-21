@@ -21,19 +21,19 @@ const Menu = () => {
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>
                             <NavDropdown title="Course" id="collasible-nav-dropdown">
-                                <NavDropdown title="First Year" id="collasible-nav-dropdown" style={{ color: '#000' }}>
+                                <NavDropdown title="First Year" id="collasible-nav-dropdown" >
                                     <NavDropdown.Item href="#action/3.1">First Semester</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Second Semester</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Second Year" id="collasible-nav-dropdown" style={{ color: '#000' }}>
+                                <NavDropdown title="Second Year" id="collasible-nav-dropdown" >
                                     <NavDropdown.Item href="#action/3.1">Third Semester</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Fourth Semester</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Third Year" id="collasible-nav-dropdown" style={{ color: '#000' }}>
+                                <NavDropdown title="Third Year" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Fifth Semester</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Sixth Semester</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Fourth Year" id="collasible-nav-dropdown" style={{ color: '#000' }}>
+                                <NavDropdown title="Fourth Year" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Seventh Semester</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Eighth Semester</NavDropdown.Item>
                                 </NavDropdown>
@@ -50,9 +50,9 @@ const Menu = () => {
                                 <NavDropdown.Item href="">8th</NavDropdown.Item>
                                 <NavDropdown.Item href="">9th</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#pricing">Gallery</Nav.Link>
+                            <Nav.Link href="#gallery">Gallery</Nav.Link>
                             <Nav.Link href="#testimonials">Testimonial</Nav.Link>
-                            <Nav.Link href="#pricing">Footer</Nav.Link>
+                            <Nav.Link href="#footer">Footer</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

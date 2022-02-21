@@ -25,13 +25,13 @@ const FooterTop = () => {
             <h3>Facebook</h3>
             <hr />
             <a href="https://www.facebook.com/mgt242011" target='_blank' style={{ textDecoration: 'none' }}>
-              <img src={footer} alt="" style={{ opacity: '50%' }} />
+              <img src={footer} alt="" style={{ opacity: '50%' }} className="img-fluid" />
               <p style={{
                 position: 'relative',
                 bottom: '45%',
                 left: '15%',
                 textAlign: 'justify',
-                fontSize: '20px',
+                fontSize: '1.5vw',
                 color: '#fff',
                 width: '60%',
 
