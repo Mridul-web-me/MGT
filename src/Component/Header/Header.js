@@ -10,7 +10,7 @@ const Header = () => {
             <div className='sticky-top'>
                 <Menu id='home'></Menu>
             </div>
-            <Banner></Banner>
+           
         </>
     )
 }

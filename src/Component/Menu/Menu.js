@@ -10,7 +10,7 @@ const Menu = () => {
                 background: '#040a1a'
             }} variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/home">
                         <img src={logo} alt="" width='70px' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -18,43 +18,54 @@ const Menu = () => {
                         justifyContent: 'end'
                     }}>
                         <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="/home">Home</Nav.Link>
+                            <Nav.Link href="/about">About</Nav.Link>
                             <NavDropdown title="Course" id="collasible-nav-dropdown">
                                 <NavDropdown title="First Year" id="collasible-nav-dropdown" >
-                                    <NavDropdown.Item href="#action/3.1">First Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Second Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="FirstSemester">First Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="SecondSemester">Second Semester</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Second Year" id="collasible-nav-dropdown" >
-                                    <NavDropdown.Item href="#action/3.1">Third Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Fourth Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="ThirdSemester">Third Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="FourthSemester">Fourth Semester</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Third Year" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Fifth Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Sixth Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="FifthSemester">Fifth Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="SixthSemester">Sixth Semester</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Fourth Year" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Seventh Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Eighth Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="SeventhSemester">Seventh Semester</NavDropdown.Item>
+                                    <NavDropdown.Item href="EighthSemester">Eighth Semester</NavDropdown.Item>
                                 </NavDropdown>
                             </NavDropdown>
 
                             <NavDropdown title="Batch" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="">1st</NavDropdown.Item>
-                                <NavDropdown.Item href="">2nd</NavDropdown.Item>
-                                <NavDropdown.Item href="">3rd</NavDropdown.Item>
-                                <NavDropdown.Item href="">4th</NavDropdown.Item>
-                                <NavDropdown.Item href="">5th</NavDropdown.Item>
-                                <NavDropdown.Item href="">6th</NavDropdown.Item>
-                                <NavDropdown.Item href="">7th</NavDropdown.Item>
-                                <NavDropdown.Item href="">8th</NavDropdown.Item>
-                                <NavDropdown.Item href="">9th</NavDropdown.Item>
+                                <NavDropdown.Item href="1st-batch">1st</NavDropdown.Item>
+                                <NavDropdown.Item href="2nd-batch">2nd</NavDropdown.Item>
+                                <NavDropdown.Item href="3rd-batch">3rd</NavDropdown.Item>
+                                <NavDropdown.Item href="4th-batch">4th</NavDropdown.Item>
+                                <NavDropdown.Item href="5th-batch">5th</NavDropdown.Item>
+                                <NavDropdown.Item href="6th-batch">6th</NavDropdown.Item>
+                                <NavDropdown.Item href="7th-batch">7th</NavDropdown.Item>
+                                <NavDropdown.Item href="8th-batch">8th</NavDropdown.Item>
+                                <NavDropdown.Item href="9th-batch">9th</NavDropdown.Item>
+                                <NavDropdown.Item href="10th-batch">10th</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#gallery">Gallery</Nav.Link>
                             <Nav.Link href="#testimonials">Testimonial</Nav.Link>
                             <Nav.Link href="#footer">Footer</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+
+
+
+
+
+
+
+
+
+
                 </Container>
             </Navbar>
         </div>

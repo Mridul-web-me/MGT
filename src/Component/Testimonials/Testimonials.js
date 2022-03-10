@@ -14,6 +14,7 @@ import pic6 from '../../img/assets/Teacher Profile/abir.jpg'
 import pic7 from '../../img/assets/Teacher Profile/258755.jpg'
 import pic8 from '../../img/assets/Teacher Profile/surajit.jpg'
 import pic9 from '../../img/assets/Teacher Profile/liza.jpg'
+import { Link } from 'react-router-dom';
 
 const Testimonials = () => {
     return (
@@ -36,7 +37,10 @@ const Testimonials = () => {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
+                   
+
+                   <SwiperSlide>
+                   <Link to='/nusrat-sharmin-lipy'>
                         <div>
                             <img src={pic1} alt="" />
                             <h5>Nusrat Sharmin Lipy <br />
@@ -44,17 +48,22 @@ const Testimonials = () => {
                             <p>Cell :01744998866 <br />
                                 Email :nslipy@bu.ac.bd</p>
                         </div>
+                        </Link>
                     </SwiperSlide>
+                   
                     <SwiperSlide>
-                        <div>
+                       <Link to='/dr-abdullah-al-masud'>
+                       <div>
                             <img src={pic2} alt="" />
                             <h5>Dr. Abdullah Al Masud <br />
                                 Assistant Professor</h5>
                             <p>Cell :+8801711968949 <br />
                                 Email :masud_ru_bd@yahoo.com</p>
                         </div>
+                           </Link>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <Link to="/md-shakhawat-hossain">
                         <div>
                             <img src={pic3} alt="" />
                             <h5>Md. Shakhawat Hossain <br />
@@ -62,8 +71,10 @@ const Testimonials = () => {
                             <p>Cell :01711352874 <br />
                                 Email :mshahossain@bu.ac.bd; abir.md@gmail.com</p>
                         </div>
+                        </Link>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <Link to="/md-alamgir-mollah">
                         <div>
                             <img src={pic4} alt="" />
                             <h5>Md. Alamgir Mollah <br />
@@ -71,18 +82,22 @@ const Testimonials = () => {
                             <p>Cell :+8801790035425 <br />
                                 Email :alamgir1003@yahoo.com</p>
                         </div>
+                            </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
+                       <Link to="/tazizur-rahman">
+                       <div>
                             <img src={pic5} alt="" />
                             <h5>Tazizur Rahman <br />
                                 Assistant Professor</h5>
                             <p>Cell :+8801710407384 <br />
                                 Email :trahman@bu.ac.bd</p>
                         </div>
+                       </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
+                       <Link to="/md-abir-hossain">
+                       <div>
                             <img src={pic6} alt="" />
                             <h5>
                                 MD. ABIR HOSSAIN <br />
@@ -93,8 +108,10 @@ const Testimonials = () => {
                                 Email :mahossain@bu.ac.bd
                             </p>
                         </div>
+                       </Link>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <Link to="/md-sohel-chowdhury">
                         <div>
                             <img src={pic7} alt="" />
                             <h5>
@@ -106,9 +123,11 @@ const Testimonials = () => {
                                 Email :mschowdhury@bu.ac.bd
                             </p>
                         </div>
+                            </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
+                       <Link to="/surajit-kumar-mondol">
+                       <div>
                             <img src={pic8} alt="" />
                             <h5>
                                 Surajit Kumar Mondal <br />
@@ -119,9 +138,11 @@ const Testimonials = () => {
                                 Email :surajitbumgt@gmail.com
                             </p>
                         </div>
+                       </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
+                       <Link to="/saima-afrin-liza">
+                       <div>
                             <img src={pic9} alt="" />
                             <h5>
                                 Saima Afrin Liza <br />
@@ -132,6 +153,7 @@ const Testimonials = () => {
                                 Email :afrinliza1991@gmail.com
                             </p>
                         </div>
+                       </Link>
                     </SwiperSlide>
                 </Swiper>
             </Container>
