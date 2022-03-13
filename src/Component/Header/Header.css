@@ -4,6 +4,10 @@
 .dropdown-menu.show{
     background: #040a1a;
 }
-a.dropdown-item {
+a.dropdown-item a {
     color: #fff;
+    text-decoration: none;
+}
+a.dropdown-item:hover a{
+    color: #040a1a;
 }

@@ -19,23 +19,39 @@ const Menu = () => {
                     }}>
                         <Nav>
                             <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
                             <NavDropdown title="Course" id="collasible-nav-dropdown">
                                 <NavDropdown title="First Year" id="collasible-nav-dropdown" >
-                                    <NavDropdown.Item href="FirstSemester">First Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="SecondSemester">Second Semester</NavDropdown.Item>
+                                    <NavDropdown.Item >
+                                        <Link to="/FirstSemester">First Semester</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item >
+                                        <Link to="/SecondSemester">Second Semester</Link>
+                                    </NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Second Year" id="collasible-nav-dropdown" >
-                                    <NavDropdown.Item href="ThirdSemester">Third Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="FourthSemester">Fourth Semester</NavDropdown.Item>
+                                <NavDropdown.Item >
+                                        <Link to="/ThirdSemester">First Semester</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item >
+                                        <Link to="/FourthSemester">Second Semester</Link>
+                                    </NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Third Year" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="FifthSemester">Fifth Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="SixthSemester">Sixth Semester</NavDropdown.Item>
+                                <NavDropdown.Item >
+                                        <Link to="/FifthSemester">First Semester</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item >
+                                        <Link to="/SixsthSemester">Second Semester</Link>
+                                    </NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Fourth Year" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="SeventhSemester">Seventh Semester</NavDropdown.Item>
-                                    <NavDropdown.Item href="EighthSemester">Eighth Semester</NavDropdown.Item>
+                                <NavDropdown.Item >
+                                        <Link to="/SeventhSemester">First Semester</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item >
+                                        <Link to="/EightSemester">Second Semester</Link>
+                                    </NavDropdown.Item>
                                 </NavDropdown>
                             </NavDropdown>
 
