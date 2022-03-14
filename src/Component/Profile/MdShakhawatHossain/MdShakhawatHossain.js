@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Helmet from 'react-helmet'
 import img from '../../../img/assets/Teacher Profile/shkhawat hossain.jpg'
 
 const MdShakhawatHossain = () => {
@@ -7,6 +8,10 @@ const MdShakhawatHossain = () => {
     <div style={{
       margin: '50px'
   }}>
+    <Helmet>
+             
+             <title>Md. Shakhawat Hossain</title>
+         </Helmet>
     <Container style={{
       border: '1px solid'
     }}>

@@ -1,9 +1,14 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
+import Helmet from 'react-helmet'
 
 const EightSemester = () => {
   return (
     <>
+    <Helmet>
+             
+             <title>Eight Semester</title>
+         </Helmet>
     <h2 style={{
       margin: '20px'
     }}>Eight Semester</h2>

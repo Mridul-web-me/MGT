@@ -1,11 +1,16 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Helmet from 'react-helmet'
 import img from '../../../img/assets/Teacher Profile/lipi.jpg'
 const NusratSarminLipy = () => {
   return (
     <div style={{
         margin: '50px'
     }}>
+      <Helmet>
+             
+             <title>Nusrat Sharmin Lipy</title>
+         </Helmet>
       <Container>
       <h2 style={{textAlign: 'start'}}>TEACHERS PROFILE</h2>
       <hr/>
